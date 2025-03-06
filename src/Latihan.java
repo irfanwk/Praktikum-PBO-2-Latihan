@@ -11,6 +11,7 @@ public class Latihan {
         int usia=input.nextInt();
         System.out.print("Masukkan tinggi badan : ");
         double tinggiBadan=input.nextDouble();
+        input.close();
 
         System.out.println("Perkenalkan nama saya "+nama+" dengan NIM "+nim+". Saya berusia "+usia+" tahun dan memiliki tinggi badan "+tinggiBadan+" cm.");
         System.out.println("");
